@@ -1,0 +1,4 @@
+FROM debian:stable-slim
+WORKDIR /usr/src/app
+COPY script.sh .
+CMD ["./script.sh"]
