@@ -3,11 +3,8 @@ Assignment 1.1 - Log output
 Here is the script that I wrote:
 script.sh
 #!/bin/bash
-
 forever=0
-
 ranString=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 20)
-
 date1=$(date +%d-%m-%Y--%H:%M:%S)
 while [ $forever=0 ]
 do
