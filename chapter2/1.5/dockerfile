@@ -1,0 +1,7 @@
+FROM php:8.5-rc-apache-trixie
+WORKDIR /mystuff
+COPY index.php /var/www/html/index.php
+COPY style.css /var/www/html/style.css
+COPY myscript.sh .
+RUN chmod +x myscript.sh
+ENTRYPOINT ["./myscript.sh"]
