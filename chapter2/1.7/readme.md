@@ -7,9 +7,9 @@ Assignment 1.7
 - Added manifests service.yaml and ingress.yaml
     - https://github.com/TomppeliG6-8/kubernetes/blob/main/chapter2/1.7/manifests/ingress.yaml
     - https://github.com/TomppeliG6-8/kubernetes/blob/main/chapter2/1.7/manifests/service.yaml
-
+#
 The myscript.sh runs every 5 seconds and creates random string and date. After that the script echos it to the /var/www/html/index.html and to the logs. Im just using the default nginx setup to serve the index.html page.
-
+#
 How to run:
 #
 - Copy the manifests folder
@@ -18,4 +18,4 @@ How to run:
 - kubectl apply -f manifests
 #
 IT WORKS! https://github.com/TomppeliG6-8/kubernetes/blob/main/chapter2/1.7/it-works.jpg
-
+#
