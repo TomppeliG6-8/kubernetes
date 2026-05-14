@@ -1,0 +1,7 @@
+FROM debian:stable-slim
+WORKDIR /mystuff
+COPY myscript.sh .
+RUN chmod +x myscript.sh && \
+    apt-get update && \
+    apt-get install nginx -y
+CMD ["./myscript.sh"]
