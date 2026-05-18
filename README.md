@@ -8,3 +8,5 @@ Assignments:
 - 1.5 - https://github.com/TomppeliG6-8/kubernetes/tree/main/chapter2/1.5
 - 1.6 - https://github.com/TomppeliG6-8/kubernetes/tree/main/chapter2/1.6
 - 1.7 - https://github.com/TomppeliG6-8/kubernetes/tree/main/chapter2/1.7
+- 1.8 - https://github.com/TomppeliG6-8/kubernetes/tree/main/chapter2/1.8
+- 
